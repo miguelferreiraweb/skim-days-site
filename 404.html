@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-lBbjLkdOyK9xI75COioKa0sFF+o2rIsWXRU43u3n9Js='; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+    <meta name="robots" content="noindex, nofollow, noai, noimageai">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skim Days</title>
+    <!-- The page's dark background before any CSS or JS arrives (no white flash on load;
+         npm run dev injects the CSS from JS): Tailwind's slate-950, the body's class -->
+    <meta name="color-scheme" content="dark">
+    <style>html{background:oklch(12.9% .042 264.695)}</style>
+    <!-- Generated from frontend/ (npm run build): do not edit by hand -->
+    <!-- The "S" of the wordmark; darker on light browser tabs -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cstyle%3Etext%7Bfill:%230891b2%7D@media (prefers-color-scheme:dark)%7Btext%7Bfill:%2322d3ee%7D%7D%3C/style%3E%3Ctext x='16' y='26' text-anchor='middle' font-family='system-ui,-apple-system,Segoe UI,Roboto,sans-serif' font-size='30' font-weight='800'%3ES%3C/text%3E%3C/svg%3E">
+    <!-- Relative paths (the page's files, spots.json, the API) from the page's folder as it
+         opened, before any of them is read: on a beach's page (/praia/<id>/<name>, served by
+         skim/server or Vite) the site's root, and they stay there as the router changes the
+         path. With http.server at the project root, /dist/web/. -->
+    <script>document.head.append(Object.assign(document.createElement('base'), { href: location.pathname.startsWith('/praia/') ? '/' : location.pathname.replace(/[^/]*$/, '') }));</script>
+  <script type="module" crossorigin src="/assets/index-HD3NeHZE.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-Bv_TiqYS.css">
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans">
+    <div id="root"><style>@keyframes skim-show{to{opacity:1}}</style><p style="max-width:36rem;margin:4rem auto;padding:0 1rem;text-align:center;opacity:0;animation:skim-show 0s 1s forwards">Abra o dashboard através do servidor local: <code>python3 -m skim.server</code> e depois <code>http://localhost:8000</code>.</p></div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+{"run":"GFS 2026-10-31 06Z","run_id":"2026103106","engine":"v18.6","waves":{"available":["copernicus","gfs"],"default":"copernicus","coverage":{"gfs":1.0,"copernicus":1.0}},"spots":252,"inputs":"2b6d387c807f256e0446cfcd7e80e971db4cc551"}
